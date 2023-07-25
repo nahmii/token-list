@@ -1,3 +1,14 @@
-# template-repository
+# @nahmii/token-list
 
-This repository is a template for generating Nahmii code repositories. Please refer to GitHub's [Creating repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for instructions on how to make use of this template.
+This NPM module and GitHub repo contains the token list used in the nahmii network.
+
+## Adding a token
+
+To request that we add a token to the list, 
+[file an issue](https://github.com/Nahmii/token-list/issues/new?assignees=&labels=token+request&template=token-request.md&title=Add+%7BTOKEN_SYMBOL%7D%3A+%7BTOKEN_NAME%7D).
+
+### Disclaimer
+
+Note filing an issue does not guarantee addition to this default token list.
+We do not review token addition requests in any particular order, and we do not
+guarantee that we will review your request to add the token to the default list.

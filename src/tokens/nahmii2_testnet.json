@@ -1,0 +1,35 @@
+[
+    {
+        "chainId": 5553,
+        "address": "0xab151cD390C6b0eB41A4a45E1E372972C3067b1a",
+        "name": "Nahmii USD",
+        "symbol": "NUSD",
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+        "extensions": {
+            "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+        }
+    },
+    {
+        "chainId": 5553,
+        "address": "0xB59C984a529490fde6698702342b292840743bb8",
+        "name": "Nahmii EURO",
+        "symbol": "NEURO",
+        "decimals": 6,
+        "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+        "extensions": {
+            "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+        }
+    },
+    {
+        "chainId": 5553,
+        "address": "0xB68553758df8c253746d3cED96aA1De896F09470",
+        "name": "KniightCoin",
+        "symbol": "KNII",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+        "extensions": {
+            "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+        }
+    }
+]
