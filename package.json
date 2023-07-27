@@ -1,6 +1,6 @@
 {
     "name": "@nahmii/token-list",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Nahmii token list",
     "main": "build/nahmii-tokenlist.json",
     "license": "MIT",
