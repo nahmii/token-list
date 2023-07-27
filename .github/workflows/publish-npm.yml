@@ -30,6 +30,7 @@ jobs:
               uses: JS-DevTools/npm-publish@v2
               with:
                   token: ${{ secrets.NPMJS_NODE_AUTH_TOKEN }}
+                  access: public
                   ignore-scripts: false
             - if: steps.publish.outputs.type
               run: |
