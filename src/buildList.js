@@ -4,8 +4,7 @@ const ropsten = require("./tokens/ropsten.json");
 const goerli = require("./tokens/goerli.json");
 const nahmii2 = require("./tokens/nahmii2.json");
 const nahmii2_testnet = require("./tokens/nahmii2_testnet.json");
-const nahmii3_public_testnet = require("./tokens/nahmii3_public_testnet.json");
-const nahmii3_internal_testnet = require("./tokens/nahmii3_internal_testnet.json");
+const nahmii3_testnet = require("./tokens/nahmii3_testnet.json");
 const { getAddress } = require("@ethersproject/address");
 
 module.exports = function buildList() {
@@ -28,8 +27,7 @@ module.exports = function buildList() {
             ...ropsten,
             ...nahmii2_testnet,
             ...goerli,
-            ...nahmii3_public_testnet,
-            ...nahmii3_internal_testnet,
+            ...nahmii3_testnet,
         ]
             .map((token) => ({ ...token, address: getAddress(token.address) }))
             .sort((t1, t2) => {
