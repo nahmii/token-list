@@ -1,8 +1,11 @@
 const { version } = require("../package.json");
 const ethereum = require("./tokens/ethereum.json");
 const ropsten = require("./tokens/ropsten.json");
+const goerli = require("./tokens/goerli.json");
 const nahmii2 = require("./tokens/nahmii2.json");
 const nahmii2_testnet = require("./tokens/nahmii2_testnet.json");
+const nahmii3_public_testnet = require("./tokens/nahmii3_public_testnet.json");
+const nahmii3_internal_testnet = require("./tokens/nahmii3_internal_testnet.json");
 const { getAddress } = require("@ethersproject/address");
 
 module.exports = function buildList() {
@@ -16,9 +19,18 @@ module.exports = function buildList() {
             patch: +parsed[2],
         },
         tags: {},
-        logoURI: "",
+        logoURI:
+            "https://ipfs.io/ipfs/QmZiMZuShJtZ9pigejjdwHq2iyQTQiaVP4QXGtwt22gkPJ",
         keywords: ["nahmii", "tokenlist"],
-        tokens: [...ethereum, ...nahmii2, ...ropsten, ...nahmii2_testnet]
+        tokens: [
+            ...ethereum,
+            ...nahmii2,
+            ...ropsten,
+            ...nahmii2_testnet,
+            ...goerli,
+            ...nahmii3_public_testnet,
+            ...nahmii3_internal_testnet,
+        ]
             .map((token) => ({ ...token, address: getAddress(token.address) }))
             .sort((t1, t2) => {
                 if (t1.chainId === t2.chainId) {

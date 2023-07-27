@@ -1,0 +1,79 @@
+[
+    {
+        "chainId": 4062,
+        "address": "0xf08622f386380d82Ec30Fd448498EAaA41f7De11",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389",
+        "extensions": {
+            "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+        }
+    },
+    {
+        "chainId": 4062,
+        "address": "0x2e5ECA4aDA03B2858f7A83828550aAAC285bCd82",
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/9956/thumb/dai-multi-collateral-mcd.png?1574218774",
+        "extensions": {
+            "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+        }
+    },
+    {
+        "chainId": 4062,
+        "address": "0x265Eb2F0C1171509Eb0472Cd74A5E324d34f7c7d",
+        "name": "Wrapped BTC",
+        "symbol": "WBTC",
+        "decimals": 8,
+        "logoURI": "https://assets.coingecko.com/coins/images/7598/thumb/wrapped_bitcoin_wbtc.png?1548822744",
+        "extensions": {
+            "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+        }
+    },
+    {
+        "chainId": 4062,
+        "address": "0xAFE2eEB177f51a6b569ad2071cdE5e81685Cea6B",
+        "name": "Chainlink Token",
+        "symbol": "LINK",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/877/thumb/chainlink-new-logo.png?1547034700",
+        "extensions": {
+            "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+        }
+    },
+    {
+        "chainId": 4062,
+        "address": "0x51abAdeB43a0281CF76CB12726697E2699557689",
+        "name": "KniightToken",
+        "symbol": "KNII",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+        "extensions": {
+            "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+        }
+    },
+    {
+        "chainId": 4062,
+        "address": "0xd1Bd2A52A44a8573E07521B09d624983c8B825FD",
+        "name": "Nahmii EURO",
+        "symbol": "NEURO",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+        "extensions": {
+            "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+        }
+    },
+    {
+        "chainId": 4062,
+        "address": "0xaDAe54Dff6272823636b38833CE8Fd10bF3f3Ac8",
+        "name": "Nahmii USD",
+        "symbol": "NUSD",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+        "extensions": {
+            "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+        }
+    }
+]
