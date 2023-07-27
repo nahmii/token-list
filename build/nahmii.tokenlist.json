@@ -1,0 +1,633 @@
+{
+  "name": "Nahmii token list",
+  "timestamp": "2023-07-27T10:20:32.842Z",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 1
+  },
+  "tags": {},
+  "logoURI": "https://ipfs.io/ipfs/QmZiMZuShJtZ9pigejjdwHq2iyQTQiaVP4QXGtwt22gkPJ",
+  "keywords": [
+    "nahmii",
+    "tokenlist"
+  ],
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "name": "Dai",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/9956/thumb/dai-multi-collateral-mcd.png?1574218774",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x2fCE9b92a64c1DDf14a1A9E5Ec6D4e4C7C9F4Fdd"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xdB25f211AB05b1c97D595516F45794528a807ad8",
+      "name": "STASIS EURO",
+      "symbol": "EURS",
+      "decimals": 2,
+      "logoURI": "https://assets.coingecko.com/coins/images/5164/thumb/EURS_300x300.png?1550571779",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x2fCE9b92a64c1DDf14a1A9E5Ec6D4e4C7C9F4Fdd"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xC581b735A1688071A1746c968e0798D642EDE491",
+      "name": "Euro Tether",
+      "symbol": "EURT",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/17385/thumb/Tether_full_logo_dm.png?1627537298",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x2fCE9b92a64c1DDf14a1A9E5Ec6D4e4C7C9F4Fdd"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x7c8155909cd385F120A56eF90728dD50F9CcbE52",
+      "name": "Nahmii",
+      "symbol": "NII",
+      "decimals": 15,
+      "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x2fCE9b92a64c1DDf14a1A9E5Ec6D4e4C7C9F4Fdd"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x852e5427c86A3b46DD25e5FE027bb15f53c4BCb8",
+      "name": "NiiFi",
+      "symbol": "NIIFI",
+      "decimals": 15,
+      "logoURI": "https://bridge.nahmii.io/niifi-logo.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x2fCE9b92a64c1DDf14a1A9E5Ec6D4e4C7C9F4Fdd"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
+      "name": "renBTC",
+      "symbol": "RENBTC",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/11370/thumb/Bitcoin.jpg?1628072791",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x2fCE9b92a64c1DDf14a1A9E5Ec6D4e4C7C9F4Fdd"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x2fCE9b92a64c1DDf14a1A9E5Ec6D4e4C7C9F4Fdd"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
+      "name": "Pax Dollar",
+      "symbol": "USDP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/6013/thumb/Pax_Dollar.png?1629877204",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x2fCE9b92a64c1DDf14a1A9E5Ec6D4e4C7C9F4Fdd"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/thumb/Tether-logo.png?1598003707",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x2fCE9b92a64c1DDf14a1A9E5Ec6D4e4C7C9F4Fdd"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/7598/thumb/wrapped_bitcoin_wbtc.png?1548822744",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x2fCE9b92a64c1DDf14a1A9E5Ec6D4e4C7C9F4Fdd"
+      }
+    },
+    {
+      "chainId": 3,
+      "address": "0xA2CD104095E6e5569A32B567C8e4D2DB99445D5e",
+      "name": "KniightCoin",
+      "symbol": "KNII",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x21De2607E90edb1736bc460a4cd58c0FCd74ABcc"
+      }
+    },
+    {
+      "chainId": 3,
+      "address": "0x01D8755f8ea44d90F8f2d6458153853c84abbf32",
+      "name": "Nahmii EURO",
+      "symbol": "NEURO",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x21De2607E90edb1736bc460a4cd58c0FCd74ABcc"
+      }
+    },
+    {
+      "chainId": 3,
+      "address": "0x11CA3411F42A7F6c8ca3a1ef5f8045893FF0BBa5",
+      "name": "Nahmii USD",
+      "symbol": "NUSD",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x21De2607E90edb1736bc460a4cd58c0FCd74ABcc"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x11fE4B6AE13d2a6055C8D9cF65c55bac32B5d844",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/9956/thumb/dai-multi-collateral-mcd.png?1574218774",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x7E639163e1A98685c88cbA719c9456087922Af39"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x51abAdeB43a0281CF76CB12726697E2699557689",
+      "name": "KniightToken",
+      "symbol": "KNII",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x7E639163e1A98685c88cbA719c9456087922Af39"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x326C977E6efc84E512bB9C30f76E30c160eD06FB",
+      "name": "Chainlink Token",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/877/thumb/chainlink-new-logo.png?1547034700",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x7E639163e1A98685c88cbA719c9456087922Af39"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xd1Bd2A52A44a8573E07521B09d624983c8B825FD",
+      "name": "Nahmii EURO",
+      "symbol": "NEURO",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x7E639163e1A98685c88cbA719c9456087922Af39"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xaDAe54Dff6272823636b38833CE8Fd10bF3f3Ac8",
+      "name": "Nahmii USD",
+      "symbol": "NUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x7E639163e1A98685c88cbA719c9456087922Af39"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x7E639163e1A98685c88cbA719c9456087922Af39"
+      }
+    },
+    {
+      "chainId": 5,
+      "address": "0xC04B0d3107736C32e19F1c62b2aF67BE61d63a05",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/7598/thumb/wrapped_bitcoin_wbtc.png?1548822744",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x7E639163e1A98685c88cbA719c9456087922Af39"
+      }
+    },
+    {
+      "chainId": 4062,
+      "address": "0x2e5ECA4aDA03B2858f7A83828550aAAC285bCd82",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/9956/thumb/dai-multi-collateral-mcd.png?1574218774",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4062,
+      "address": "0x51abAdeB43a0281CF76CB12726697E2699557689",
+      "name": "KniightToken",
+      "symbol": "KNII",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4062,
+      "address": "0xAFE2eEB177f51a6b569ad2071cdE5e81685Cea6B",
+      "name": "Chainlink Token",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/877/thumb/chainlink-new-logo.png?1547034700",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4062,
+      "address": "0xd1Bd2A52A44a8573E07521B09d624983c8B825FD",
+      "name": "Nahmii EURO",
+      "symbol": "NEURO",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4062,
+      "address": "0xaDAe54Dff6272823636b38833CE8Fd10bF3f3Ac8",
+      "name": "Nahmii USD",
+      "symbol": "NUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4062,
+      "address": "0xf08622f386380d82Ec30Fd448498EAaA41f7De11",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4062,
+      "address": "0x265Eb2F0C1171509Eb0472Cd74A5E324d34f7c7d",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/7598/thumb/wrapped_bitcoin_wbtc.png?1548822744",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0x6684DA8CFc890b4dBED78D7f1C4ABe7C2cd49488",
+      "name": "KniightCoin",
+      "symbol": "KNII",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/NiiFi/tokenIcons/dev/0xB68553758df8c253746d3cED96aA1De896F09470/logo.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0xE5685433c26149A75165C2A77e5B3daf5c101C82",
+      "name": "Nahmii EURO",
+      "symbol": "NEURO",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/NiiFi/tokenIcons/dev/0xB59C984a529490fde6698702342b292840743bb8/logo.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0x513472ADD209Bb9e68C9F9b7666db3F3c615a065",
+      "name": "Nahmii",
+      "symbol": "NII",
+      "decimals": 15,
+      "logoURI": "https://raw.githubusercontent.com/NiiFi/tokenIcons/dev/0xab151cD390C6b0eB41A4a45E1E372972C3067b1a/logo.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0x370ac30FCD8cbebA58cBDbd6A88e3c079e23d0Fa",
+      "name": "Nahmii USD",
+      "symbol": "NUSD",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/NiiFi/tokenIcons/dev/0xab151cD390C6b0eB41A4a45E1E372972C3067b1a/logo.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "address": "0xE80d406a3EC5A67127c76c004Ba091F36B9396A0",
+      "chainId": 4064,
+      "name": "TokenAMintable",
+      "symbol": "TKAM",
+      "logoURI": "https://ui-avatars.com/api/?name=TKA&background=random&length=4&bold=true",
+      "decimals": 18,
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0xFC95598C13755acB359e1F57734DD4B1fb8485F1",
+      "name": "TokenBMintable",
+      "symbol": "TKBM",
+      "logoURI": "https://ui-avatars.com/api/?name=TKB&background=random&length=4&bold=true",
+      "decimals": 18,
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0x2869d3166d30b922Ae3944CDE946Da3791787e90",
+      "name": "TokenCMintable",
+      "symbol": "TKCM",
+      "logoURI": "https://ui-avatars.com/api/?name=TKC&background=random&length=4&bold=true",
+      "decimals": 18,
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0x1bb31cD973dd87fFa2FE6b91806F0738340AA1Ff",
+      "name": "TokenDMintable",
+      "symbol": "TKDM",
+      "logoURI": "https://ui-avatars.com/api/?name=TKD&background=random&length=4&bold=true",
+      "decimals": 18,
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0x868700E5eaFf04D17C70Fa82997db8b986D800bb",
+      "name": "TokenEMintable",
+      "symbol": "TKEM",
+      "logoURI": "https://ui-avatars.com/api/?name=TKE&background=random&length=4&bold=true",
+      "decimals": 18,
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0x1E2f8C73c9bc41621c077CCDc9C3FcE955c68Cd8",
+      "name": "TokenFMintable",
+      "symbol": "TKFM",
+      "logoURI": "https://ui-avatars.com/api/?name=TKF&background=random&length=4&bold=true",
+      "decimals": 18,
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0x750C1Fd679747Ea6AC7183E98bA9f6CCe89B579B",
+      "name": "TokenGMintable",
+      "symbol": "TKGM",
+      "logoURI": "https://ui-avatars.com/api/?name=TKG&background=random&length=4&bold=true",
+      "decimals": 18,
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0xb2d912B1fC7b446787ff0A8197417E151575c4e0",
+      "name": "TokenHMintable",
+      "symbol": "TKHM",
+      "logoURI": "https://ui-avatars.com/api/?name=TKH&background=random&length=4&bold=true",
+      "decimals": 18,
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0x46b521a81eD80006cCD4FcABDbA49274D1B8b443",
+      "name": "TokenIMintable",
+      "symbol": "TKIM",
+      "logoURI": "https://ui-avatars.com/api/?name=TKI&background=random&length=4&bold=true",
+      "decimals": 18,
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0xb698FD70B079742d44DCfd0B07DE3Ad452f48918",
+      "name": "TokenJMintable",
+      "symbol": "TKJM",
+      "logoURI": "https://ui-avatars.com/api/?name=TKJ&background=random&length=4&bold=true",
+      "decimals": 18,
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0x5e422b37e3d8a7aeC0338E0593E890f387F6B1F2",
+      "name": "Troll",
+      "symbol": "TRL",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/NiiFi/tokenIcons/dev/0xB68553758df8c253746d3cED96aA1De896F09470/logo.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 4064,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "logoURI": "https://raw.githubusercontent.com/NiiFi/tokenIcons/dev/0xab151cD390C6b0eB41A4a45E1E372972C3067b1a/logo.png",
+      "decimals": 18,
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5551,
+      "address": "0xd031a1682399FaD6683FF3c60De8AB5DD3B3D0A3",
+      "name": "Dai",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/9956/thumb/dai-multi-collateral-mcd.png?1574218774",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5551,
+      "address": "0xAC92b09965B6AAc33Dd43f3Ce752aD79b74Ddb94",
+      "name": "STASIS EURO",
+      "symbol": "EURS",
+      "decimals": 2,
+      "logoURI": "https://assets.coingecko.com/coins/images/5164/thumb/EURS_300x300.png?1550571779",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5551,
+      "address": "0x366C4bcbbcA84fb8F64D33978c4b85313f8dd7d7",
+      "name": "Euro Tether",
+      "symbol": "EURT",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/17385/thumb/Tether_full_logo_dm.png?1627537298",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5551,
+      "address": "0x595DBA438a1bf109953F945437c1584319515d88",
+      "name": "Nahmii",
+      "symbol": "NII",
+      "decimals": 15,
+      "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5551,
+      "address": "0x604efD2Ec4aFC77Ba9827685eCad54C8EdcA041B",
+      "name": "NiiFi",
+      "symbol": "NIIFI",
+      "decimals": 15,
+      "logoURI": "https://bridge.nahmii.io/niifi-logo.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5551,
+      "address": "0x0e14f07BCdCacEC46677DFf02685f049A7c3928C",
+      "name": "renBTC",
+      "symbol": "RENBTC",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/11370/thumb/Bitcoin.jpg?1628072791",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5551,
+      "address": "0xBe5c622cBbF7F9c326D70f795890661FeB5BF2e6",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5551,
+      "address": "0x72dDa4F7d131035F523728F11FAe0D7ccbA67128",
+      "name": "Pax Dollar",
+      "symbol": "USDP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/6013/thumb/Pax_Dollar.png?1629877204",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5551,
+      "address": "0x07137d8BDA2923Dfc1fF5b08a2e81E8715056ad3",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/thumb/Tether-logo.png?1598003707",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5551,
+      "address": "0x4F0Ea1334c97f0556d8A6e839e19770452494fDC",
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/7598/thumb/wrapped_bitcoin_wbtc.png?1548822744",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5553,
+      "address": "0xB68553758df8c253746d3cED96aA1De896F09470",
+      "name": "KniightCoin",
+      "symbol": "KNII",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5553,
+      "address": "0xB59C984a529490fde6698702342b292840743bb8",
+      "name": "Nahmii EURO",
+      "symbol": "NEURO",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    },
+    {
+      "chainId": 5553,
+      "address": "0xab151cD390C6b0eB41A4a45E1E372972C3067b1a",
+      "name": "Nahmii USD",
+      "symbol": "NUSD",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/hubiinetwork/marketing-external/master/img/nahmii/nahmii-token-2020-transparent-384x384.png",
+      "extensions": {
+        "nahmiiBridgeAddress": "0x4200000000000000000000000000000000000010"
+      }
+    }
+  ]
+}
