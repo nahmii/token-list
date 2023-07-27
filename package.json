@@ -5,6 +5,7 @@
     "main": "build/nahmii-tokenlist.json",
     "license": "MIT",
     "homepage": "https://github.com/nahmii/token-list#readme",
+    "private": false,
     "keywords": [
         "nahmii",
         "token",
@@ -19,6 +20,9 @@
     ],
     "bugs": {
         "url": "https://github.com/nahmii/token-list/issues"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "scripts": {
         "test": "mocha",
