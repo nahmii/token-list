@@ -1,26 +1,30 @@
 {
     "name": "@nahmii/token-list",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Nahmii token list",
-    "main": "index.js",
-    "repository": "git@github.com:nahmii/token-list.git",
-    "author": "AjayiMike <ajayimikeofficial@gmail.com>",
+    "main": "build/nahmii-tokenlist.json",
     "license": "MIT",
-    "private": true,
-    "scripts": {
-        "test": "mocha",
-        "build": "rimraf build && mkdir -p build && node src/write.js > build/nahmii.tokenlist.json",
-        "prepublishOnly": "npm test && npm run build"
-    },
-    "files": [
-        "build/nahmii.tokenlist.json"
-    ],
+    "homepage": "https://github.com/nahmii/token-list#readme",
     "keywords": [
         "nahmii",
         "token",
         "list"
     ],
-    "homepage": "https://github.com/Nahmii/token-list#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nahmii/token-list.git"
+    },
+    "files": [
+        "build/nahmii.tokenlist.json"
+    ],
+    "bugs": {
+        "url": "https://github.com/nahmii/token-list/issues"
+    },
+    "scripts": {
+        "test": "mocha",
+        "build": "rimraf build && mkdir -p build && node src/write.js > build/nahmii.tokenlist.json",
+        "prepublishOnly": "npm test && npm run build"
+    },
     "devDependencies": {
         "@ethersproject/address": "^5.7.0",
         "@uniswap/token-lists": "^1.0.0-beta.33",

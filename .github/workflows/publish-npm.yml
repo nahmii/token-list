@@ -1,0 +1,39 @@
+name: Publish Packages to the NPM Public Registry
+
+on:
+    # Direct push to the master branch is disabled, this will only run when a PR is merged to the master branch
+    push:
+        branches: [master]
+jobs:
+    publish:
+        runs-on: ubuntu-latest
+        environment:
+            name: release
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+
+            - name: Setup Node
+              uses: actions/setup-node@v3
+              with:
+                  node-version: "18"
+
+            - name: Install depedencies
+              run: yarn install --frozen-lockfile
+
+            - name: Run tests
+              run: yarn test
+
+            - name: Build list
+              run: yarn build
+
+            - name: Publish to NPM
+              id: publish
+              uses: JS-DevTools/npm-publish@v2
+              with:
+                  token: ${{ secrets.NPMJS_NODE_AUTH_TOKEN }}
+                  ignore-scripts: false
+            - if: steps.publish.outputs.type
+              run: |
+                  echo "Version changed: ${{ steps.publish.outputs.old-version }} => ${{ steps.publish.outputs.version }}"
+              shell: bash
